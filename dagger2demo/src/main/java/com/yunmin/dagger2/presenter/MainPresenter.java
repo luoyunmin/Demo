@@ -1,6 +1,5 @@
 package com.yunmin.dagger2.presenter;
 
-import com.yunmin.dagger2.api.MainService;
 import com.yunmin.dagger2.view.MainView;
 
 /**
@@ -10,8 +9,6 @@ import com.yunmin.dagger2.view.MainView;
 public interface MainPresenter extends Presenter {
 
     void setView(MainView mainView);
-
-    void setServer(MainService mainServer);
 
     void getData();
 

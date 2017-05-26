@@ -1,8 +1,8 @@
 package com.yunmin.dagger2.presenter.impl;
 
+import com.yunmin.dagger2.api.MainApi;
 import com.yunmin.dagger2.model.User;
 import com.yunmin.dagger2.presenter.MainPresenter;
-import com.yunmin.dagger2.api.MainService;
 import com.yunmin.dagger2.view.MainView;
 
 import javax.inject.Inject;
@@ -20,7 +20,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainPresenterImpl implements MainPresenter {
 
     MainView mainView;
-    MainService mainService;
 
     @Inject
     public MainPresenterImpl() {
@@ -32,8 +31,8 @@ public class MainPresenterImpl implements MainPresenter {
                 baseUrl("https://api.github.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        MainService mainService = retrofit.create(MainService.class);
-        Call<User> call = mainService.getUserInfo("luoyunmin");
+        MainApi mainApi = retrofit.create(MainApi.class);
+        Call<User> call = mainApi.getUserInfo("luoyunmin");
         call.enqueue(new Callback<User>() {
             @Override
             public void onResponse(Call<User> call, Response<User> response) {
@@ -52,11 +51,6 @@ public class MainPresenterImpl implements MainPresenter {
     @Override
     public void setView(MainView mainView) {
         this.mainView = mainView;
-    }
-
-    @Override
-    public void setServer(MainService mainServer) {
-
     }
 
     @Override

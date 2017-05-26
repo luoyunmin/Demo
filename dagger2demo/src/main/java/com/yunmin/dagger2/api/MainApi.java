@@ -10,7 +10,7 @@ import retrofit2.http.Path;
  * Created by luoyunmin on 2017/5/26.
  */
 
-public interface MainService {
+public interface MainApi {
     @GET("users/{user}")
     Call<User> getUserInfo(@Path("user") String user);
 }
