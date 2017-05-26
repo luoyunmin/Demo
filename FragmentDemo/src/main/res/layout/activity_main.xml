@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yunmin.fragment.MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/tabstyle"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center_horizontal"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/tabstyle"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="产品" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            style="@style/tabstyle"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="搜索" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            style="@style/tabstyle"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:text="我的" />
+
+    </RadioGroup>
+</RelativeLayout>

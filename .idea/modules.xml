@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AIDL/AIDL.iml" filepath="$PROJECT_DIR$/AIDL/AIDL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivityDemo/ActivityDemo.iml" filepath="$PROJECT_DIR$/ActivityDemo/ActivityDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AnimatorDemo/AnimatorDemo.iml" filepath="$PROJECT_DIR$/AnimatorDemo/AnimatorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinderPool/BinderPool.iml" filepath="$PROJECT_DIR$/BinderPool/BinderPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BluetoothDemo/BluetoothDemo.iml" filepath="$PROJECT_DIR$/BluetoothDemo/BluetoothDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DownLoadDemo/DownLoadDemo.iml" filepath="$PROJECT_DIR$/DownLoadDemo/DownLoadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentDemo/FragmentDemo.iml" filepath="$PROJECT_DIR$/FragmentDemo/FragmentDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gallery/Gallery.iml" filepath="$PROJECT_DIR$/Gallery/Gallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game2048/Game2048.iml" filepath="$PROJECT_DIR$/Game2048/Game2048.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntentServiceDemo/IntentServiceDemo.iml" filepath="$PROJECT_DIR$/IntentServiceDemo/IntentServiceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MessengerDemo/MessengerDemo.iml" filepath="$PROJECT_DIR$/MessengerDemo/MessengerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenGLDemo/OpenGLDemo.iml" filepath="$PROJECT_DIR$/OpenGLDemo/OpenGLDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RetrofitDemo/RetrofitDemo.iml" filepath="$PROJECT_DIR$/RetrofitDemo/RetrofitDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxDemo/RxDemo.iml" filepath="$PROJECT_DIR$/RxDemo/RxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SVG/SVG.iml" filepath="$PROJECT_DIR$/SVG/SVG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simulation/Simulation.iml" filepath="$PROJECT_DIR$/Simulation/Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Socket/Socket.iml" filepath="$PROJECT_DIR$/Socket/Socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatusLayout/StatusLayout.iml" filepath="$PROJECT_DIR$/StatusLayout/StatusLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test2/Test2.iml" filepath="$PROJECT_DIR$/Test2/Test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadUI/ThreadUI.iml" filepath="$PROJECT_DIR$/ThreadUI/ThreadUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TouchDemo/TouchDemo.iml" filepath="$PROJECT_DIR$/TouchDemo/TouchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoTest/VideoTest.iml" filepath="$PROJECT_DIR$/VideoTest/VideoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XPuzzle/XPuzzle.iml" filepath="$PROJECT_DIR$/XPuzzle/XPuzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andfixdemo/andfixdemo.iml" filepath="$PROJECT_DIR$/andfixdemo/andfixdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dagger2demo/dagger2demo.iml" filepath="$PROJECT_DIR$/dagger2demo/dagger2demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mat/mat.iml" filepath="$PROJECT_DIR$/mat/mat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewdemo/viewdemo.iml" filepath="$PROJECT_DIR$/viewdemo/viewdemo.iml" />
+    </modules>
+  </component>
+</project>

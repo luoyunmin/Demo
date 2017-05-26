@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<Button
+        android:id="@+id/crime1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="crime1" />-->
+
+    <!--<com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        tl:tl_textSelectColor="#00ffff"
+        tl:tl_textUnselectColor="#000000"
+        tl:tl_indicator_color="#00ffff"></com.flyco.tablayout.SlidingTabLayout>-->
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

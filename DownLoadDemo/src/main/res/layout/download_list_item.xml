@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp">
+
+    <com.bbk.lling.multitaskdownload.view.DownloadPercentView
+        android:id="@+id/status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        custom:circleColor="#bdbdbd"
+        custom:finishedImg="@mipmap/ic_finished"
+        custom:notBeginImg="@mipmap/ic_no_download"
+        custom:pausedImg="@mipmap/ic_pause"
+        custom:radius="16dp"
+        custom:ringColor="#52ce90"
+        custom:strokeWidth="2dp"
+        custom:waitImg="@mipmap/ic_wait" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="12dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="奇趣营" />
+
+            <TextView
+                android:id="@+id/download_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:text="已下载0%" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="8dp"
+            android:max="100" />
+
+    </LinearLayout>
+</LinearLayout>
